@@ -1,0 +1,22 @@
+Task:-
+
+
+The included code stub will read an integer, , from STDIN.
+
+Without using any string methods, try to print the following:
+1 <= n <= 150
+Note that "" represents the consecutive values in between.
+In simple words,we have asked to print such a function which will print 1 to n integers according to the input user has given.
+
+Code:-
+if __name__ == '__main__':
+    n = int(input())
+    1<=n<=150
+    def print_numbers(n):
+        for i in range(1, n + 1):
+            print(i, end="")
+        
+    print_numbers(n)
+
+
+
